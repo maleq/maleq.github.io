@@ -1,0 +1,260 @@
+
+body {
+  font-family: tahoma, verdana, sans-serif;
+  font-size: 14px;
+  h1 {font-size:450%;}
+  h2 {font-size:400%;}
+  margin: 0 auto;
+  background-color: #E0F2F7;
+}
+
+/* location of title wrapper */
+
+div#banner {
+  text-align: center;
+  color: black;
+}
+
+div#bannersub {
+  font-size: 24px;
+  margin: 0;
+}
+
+div#bannerold {
+  background: white;
+  border: 1px solid black;
+  width: 1100px;
+  height: 80px;
+  margin: 5px auto 0px 5px;
+}
+
+/* location for VBI logo in title */
+
+div#bannervbi {
+  float: left;
+  margin: 18px 0px 5px 10px;
+  background: white;
+}
+
+/* location for NDSSL "logo" in title */
+
+div#bannerndssl {
+  float: left;
+  margin: 5px 10px 5px 0px;
+  background: white;
+}
+
+/* location for NSF logo in title */
+
+div#nsflogo {
+  float: left;
+  margin: 5px 10px 5px 0px;
+  background: white;
+}
+
+/* A wrapper for menu and content */
+
+div#wrapper
+{
+  width: 872px;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+/*  background: white; does not work across browsers */
+  height: auto; 
+  border: 0px solid black;
+  padding: -1px -1px -1px -1px;
+}
+
+/* Future proofing for menu bar */
+
+div#menuwrapper
+{
+  float: left;
+  width: 200px;
+  margin: 0px 1px 5px 0px;
+  padding: 0;
+}
+
+div#menu
+{
+  background: #48423d;
+  width: 200px;
+  border: 1px solid black;
+  padding: 0;
+}
+
+/* Wrapper for content - holds title and content */
+
+div#contentwrapper
+{
+  background: #48423d;
+  border: 1px solid black;
+  width: 669px;
+  padding: 0;
+  float: left;
+  margin: 0;
+}
+
+/* the title appearing with a silver bar - optional */
+
+
+div#contenttitle
+{
+  display: block;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
+  color: black;  
+  font-size: 14px;
+  /* height: 100%; */
+  background: url("/images/header-img.png");
+  background-repeat: repeat-x;
+  width: 649px;
+  float: left;
+  margin: 0;
+}
+
+
+/* the placeholder for main page content. */
+
+div#content
+{
+  background: white;
+  float: left;
+/*  width: 100%; */
+  padding: 5px 5px 5px 5px;
+  margin: 0 auto;
+  width: 649px;
+  color: black;
+}
+
+/* This holds some info at the bottom of the page */
+
+div#footer
+{
+  float: left;
+  border: 0;
+  width: 860px;
+  padding: 10px 0px 10px 10px;
+  margin: 5px auto 5px 5px;
+  text-align: right;
+  color: #444444;
+}
+
+/* */
+
+div#personphoto  {
+  background: white;
+  float: right;
+  border: 1px solid black;
+  width: 110px;
+/*  height: 120px;*/
+  padding: 1px 1px 1px 1px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* */
+
+div#menutitle
+{
+  display: block;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
+  color: black; 
+  font-size: 14px;
+  background: url("/images/header-img.png");
+  background-repeat: repeat-x;
+}
+
+#menu a
+{
+  display: block;
+ // border-bottom: 1px solid #eee8aa;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
+  color: white;  
+  font-size: 18px;
+  background: #6E6E6E;
+}
+
+/* The menu bar pushbutton effect */
+
+#menu a:hover
+{
+  background: white;
+  color: #233f5f;
+}
+
+/* round bullets are ugly! */
+
+li {  list-style-type: square;}
+
+
+h1
+{
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  border-bottom: 1px black;
+  color: black;
+  background: url("/images/header-img.png");
+}
+
+h2
+{
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  color: black; 
+}
+
+h3 {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  color: black; 
+}
+ 
+
+
+div.column
+{
+  float: left;
+  margin: 0 0 15px 15px;
+  width: 30%;
+}
+
+img
+{
+  border: 1;
+}
+
+a:link
+{
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+a:hover span
+{
+  text-decoration: underline;
+}
+
+table {
+  color: antiquewhite;
+}

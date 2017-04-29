@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> Maleq Khan </title>
+</head>
+
+<frameset cols="155,700*" framespacing="0" border="0" frameborder="0">
+
+  <frame NAME="left" SRC="left.html" NORESIZE MARGINWIDTH="0" MARGINHEIGHT="0"
+
+  FRAMEBORDER="0" BORDER="0" SCROLLING="no" target="body">
+
+  <frameset BORDER="0" frameborder="0" rows="35,*">
+
+    <frame NAME="top" SRC="top.html" SCROLLING="no" MARGINWIDTH="0" MARGINHEIGHT="0"
+
+    FRAMEBORDER="0" target="_self" style="text-align: left; line-height: 100%; margin: 0">
+
+    <frame NAME="body" SRC="home.html" MARGINWIDTH="40" MARGINHEIGHT="32"
+
+    FRAMEBORDER="0" scrolling="auto" target="_top">
+
+  </frameset>
+
+  </noframes>
+
+  </noframes>
+
+</frameset>
+
+
+
+<frameset>
+
+  <noframes>
+
+  </noframes>
+
+</frameset>
+
+</html> 

@@ -1,0 +1,221 @@
+
+body
+{
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	background-color: #336699;
+}
+div#banner
+{
+	background: url('../graphics/math.jpg') no-repeat;
+	border: none;
+	width: 750px;
+	height: 100px;
+	margin: 0 auto 5px auto;
+}
+
+div#wrapper
+{
+	width: 752px;
+	padding: 0;
+	border: none;
+	margin: 0 auto 0 auto;
+}
+
+div#nav
+{
+	float: left;
+	background: white;
+	/* Width is: 750 (banner size) - 20 (total margin) - 2 (border size) - 540 (#content size) */
+        display:none;
+}
+div#content
+{
+	background: white;
+	float: left;
+	border: none;
+	width: 950;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 0 0;
+}
+#nav a
+{
+	display: block;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 3px 10px 3px 10px;
+	text-decoration: none;
+	color: #233f5f;
+	font-size: 14px;
+}
+#nav a:hover
+{
+	background: #dfeeff;
+	color: #039;
+	cursor: pointer;
+}
+
+#nav a.menuhead, #nav a.menuheadOpen
+{
+	color: #233f5f;
+	font-size: 14px;
+	padding-left: 23px;
+}
+#nav a.menuhead
+{
+	background: white url(../graphics/plus.png) no-repeat 5px 50%;
+}
+#nav a.menuhead:hover
+{
+	background: #dfeeff url(../graphics/plus.png) no-repeat 5px 50%;
+	color: #039;
+}
+#nav a.menuheadOpen
+{
+	background: white url(../graphics/minus.png) no-repeat 5px 50%;
+}
+#nav a.menuheadOpen:hover
+{
+	background: #dfeeff url(../graphics/minus.png) no-repeat 5px 50%;
+	color: #039;
+}
+
+#nav .submenu
+{
+	display: block;
+	padding: 5px 5px 5px 15px;
+	border-bottom: 1px solid #dfdfdf;
+	
+}
+
+#nav .submenu a
+{
+	display: block;
+	border: none;
+	padding: 3px 10px 3px 10px;
+	text-decoration: none;
+	color: #336699;
+	font-size: 12px;
+}
+
+#nav .submenu a:hover{
+	text-decoration: underline;
+	color: #039;
+	background: none;
+}
+
+h1
+{
+	font-family: 'Bitstream Charter', Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 4px double black;
+	color: #336699;
+}
+h2
+{
+	font-family: 'Bitstream Charter', Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 1px solid black;
+	color: #336699;
+}
+p
+{
+	padding-left: 15px;
+}	
+
+.indented
+{
+	margin-left: 60px;
+}
+
+div.column
+{
+	float: left;
+	margin: 0 0 15px 15px;
+	width: 30%;
+}
+
+div.column span, p span
+{
+	margin-left: -10px;
+	font-weight: bold;
+	display: block;
+}
+
+img
+{
+	border: 0;
+	padding: 10px 10px 10px 10px;
+}
+
+.totop, .personPhoto
+{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.personPhoto img
+{
+	border: 1px solid black;
+}
+.personPhoto ul
+{
+	list-style: none inside url(../graphics/bullet.png);
+	margin: 0;
+	padding: 0;
+}
+.personPhoto ul li
+{
+	margin: 0;
+	padding: 0;
+}
+li span
+{
+	font-weight: bold;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: #333366;
+}
+a:visited
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:hover span
+{
+	text-decoration: underline;
+}
+
+table
+{
+	width: 95%;
+	border: none;
+}
+table.alumtable
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table.alumtable td
+{
+/*	width: 33%;
+*/
+	padding: 2px;
+	border: 1px solid black;
+}
+
+td span
+{
+	text-decoration: underline;
+}

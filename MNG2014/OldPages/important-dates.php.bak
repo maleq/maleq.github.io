@@ -1,0 +1,36 @@
+<?php
+require("include/header.php");
+?>
+
+<div id="wrapper">
+<?php
+require("include/menu.php");
+?>
+
+<div id="contentwrapper">
+
+
+<div id="content">
+
+<center>
+<!--<img src="images/barrett-group-2009-06-web.jpg">-->
+</center>
+
+<h2>Important Dates:</h2>
+
+<ul>
+<!--
+<li><del>May 24, 2013</del> June 7, 2013: Papers due</li>
+<li>June 21, 2013: Notification</li>
+<li>Nov 15-16, 2013: The AAAI Fall Symposium on Social Networks and Social Contagion</li>
+</ul>
+<br><br>
+<!--<a href="status.php" title="Project Status">Project Status</a>-->
+
+</div> <!-- content -->
+</div> <!-- contentwrapper -->
+</div> <!-- wrapper -->
+
+<?php
+include("/include/footer.php");
+?>

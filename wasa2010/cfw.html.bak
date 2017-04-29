@@ -1,0 +1,74 @@
+<HEAD>
+    <TITLE>WASA 2010</TITLE>
+    <style type="text/css">
+        p.small { line-height: 1.0 }
+    </style>
+</HEAD>
+
+<table>
+    <tr> <td></td>  <td></td>  <td></td>  <td></td>  </tr>
+    <tr> <td></td>  <td></td>
+        <td style="width: 510px; height: 350px">
+            <TABLE width=" 510" height="142" cellpadding="0" cellspacing="0" border="0" style="background-image: url('./greatwall-1.jpg')">
+            <TR> <TD width="263" align="left">
+                <div id="Layer1" style="position:relative; width:287px; height:23px; z-index:2; left: 15px; top: 45px;">
+                <font size="6" face="Verdana" color="white" > <b> WASA 2010 </b> </font> </div> </TD>
+            </TR>
+            </TABLE>
+            <center>   <br />
+            <font size="5"> <i>International Conference on Wireless Algorithms, Systems, and Applications</i>
+               <p class="small"> August 15-17, 2010, Beijing, China </p>  </font>
+            </center>
+        </td>
+        <td> </td>
+    </tr>
+    <tr> <td></td>
+        <td style="width: 196px; height: 200px">
+            <table id="TABLE1"> <span style="font-family: Calibri"> <strong>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./index.html"> Home </a> </td> </tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./cfp.html">Call for Papers</a> </td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./author.html"> Submission Instructions</a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./keynote.html"> Keynote Speakers </a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./org.html"> Committees </a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./program.html"> Conference Program</a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./workshop.html"> Workshops </a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./reg.html"> Registration</a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./local.html"> Hotel Information</a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="./cfw.html"> Call for Workshops</a></td></tr>
+                <tr> <td style="height: 21px; text-align: left; width: 1165px;"> <a href="http://www.wasaconf.org"> Previous Conferences</a></td></tr>
+                </strong></span>
+            </table>
+            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+            <br /> <br /> <br /> <br /> <br /> 
+        </td>
+        <td >
+
+            <span style="font-size: 16pt; font-family: Calibri"> <strong> Call for Workshop Proposals </strong></span>
+            <br /> <br />
+            <span style="font-size: 12pt; font-family: Arial">
+            (In <a href="./cfwp.pdf"> PDF</a> format) <br /> <br />
+            The Fifth International Conference on Wireless Algorithms, Systems and Applications (WASA 2010), invites proposals for workshops that are closely related to the scope of the conference, i.e. on topics related to the area of algorithms, systems and applications for the current and next generation wireless networks. The proceedings of the papers presented in the workshops will be published in Springer LNCS publication series. Interested members of the community are invited to send proposals for workshops by email to the workshop chairs (listed below). <br/> <br/>
+
+The following are required in a workshop proposal:
+<ul>
+<li> Title of the workshop.
+<li> An abstract, which describes the main focus of the workshop.
+<li> Names and contact information of the organizers.
+<li> Composition of the workshop program committee
+<li> Estimated number of papers.
+<li> A brief description of the paper review process.
+</ul>
+WASA2010 will provide organizational and administrative support for the workshops. The proposals should be submitted to the workshop chairs as soon as possible, but no later than February 28, 2010. Notification of acceptance will be sent shortly after the deadline. The recommended timeline for the paper review process of the workshops is: paper submission -- April 25; notification - May 16, proceedings ready - June 1. <br/> <br/>
+Contacts:
+<ul>
+<li> Susan Cheng (workshops co-chair) cheng@gwu.edu
+<li> Costas Busch (workshops co-chair) busch@csc.lsu.edu
+</ul>
+
+            </span>
+            <br />
+
+        </td>
+        <td> </td>
+    </tr>
+</table>

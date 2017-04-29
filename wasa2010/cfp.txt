@@ -1,0 +1,52 @@
+
+The Fifth International Conference on Wireless Algorithms, 
+Systems and Applications (WASA 2010)
+August 15-17, 2010, Beijing, China
+
+The WASA 2010 conference addresses the research and development efforts in the area of 
+algorithms, systems and applications for the current and next generation wireless networks. 
+It provides a forum for researchers and practitioners around the world to exchange 
+ideas, share new findings, and discuss challenges in wireless networks.
+
+This call solicits technical papers that describe original research work, visionary 
+approaches, and future research directions dealing with effective and efficient 
+algorithm design and analysis, reliable and secure system development and implementations, 
+experimental study and test bed validation, and new application explorations in wireless 
+networks. 
+
+Topics of interest include, but are not limited to, the following: 
+
+- Cyber-physical systems (transportation, health care, civil infrastructure, etc)
+- Theoretical frameworks and analysis of fundamental cross-layer protocol and network 
+design and performance issues
+- Distributed and localized algorithm design and analysis 
+- Information and Coding theory for Wireless Networks
+- Localization 
+- Mobility models and mobile social networking
+- Topology control and coverage 
+- Security and privacy 
+- PHY/MAC/Routing  protocols 
+- Information processing and data management 
+- Programmable service interfaces
+- Energy-efficient systems and protocol design 
+- Operating system and middleware support 
+- Software-defined radio, reconfigurable radio networks 
+- Pervasive and ubiquitous computing 
+- Local area and personal wireless networks 
+- Applications, design, and performance of wireless ad hoc and sensor networks 
+- Delay/disruption tolerant networks
+- Experimental test-beds, models and case studies 
+  
+
+Authors are required to submit their papers in the Springer LNCS Format with at least 
+10 point font and no more than 10 pages. All submissions should be in the PDF format. 
+Accepted papers will be published in the Springer-LNCS series. There will be a best 
+paper award, which will be selected by the program committee. For more information please 
+visit the conference website at http://staff.vbi.vt.edu/maleq/wasa2010/
+
+IMPORTANT DATES
+Paper Submission Deadline: April 15, 2010
+Acceptance Notification: May 15, 2010
+Camera-Ready Deadline: June 1, 2010
+Conference Dates: August 15-17, 2010
+

@@ -1,0 +1,40 @@
+html {
+	background-image: url("img/bg-grid.jpg");
+	background-color: #ccc;
+	background-attachment: fixed;
+}
+
+.container_16 {
+  /*background-image: url(../img/16_col.gif);*/
+}
+
+
+.pspace {
+    font-size: 24px;
+    margin-bottom: 0.2in;
+}
+
+
+#content {
+	border: 1px solid #ddd;
+    background-image:  url("img/bg.png");
+    background-repeat: no-repeat;
+	background-color: #fafafa;
+	background-color: rgba(255, 255, 255, .9);
+	/*padding: 20px 10px 20px 10px;*/
+	margin: 48px auto 48px auto;
+	-moz-box-shadow: 0px 0px 12px #333;
+	-webkit-box-shadow: 0px 0px 12px #333;
+	box-shadow: 0px 0px 12px #333;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#header {
+	background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    height: 180px;
+	margin: 0px;
+	text-align: center;
+}

@@ -1,0 +1,151 @@
+
+
+<html lang="en">
+<head>
+</head>
+<body>
+
+<br>
+<h2> A proposal for a workshop to be held in conjunction with SDM 2016 </h2>
+
+<br>
+The proposed workshop is a continuation of a workshop held in the two years in conjuction with SIAM SDM conference. This workshop is the third in the series. The first workshop was held with SDM 2014 and the second with SDM 2015.
+
+<br>
+<br>
+
+    <h3>Workshop Title: </h3>
+Third Workshop on Mining Networks and Graphs: A Big Data Analytic Challenge (MNG 2016)
+
+    <br><br>
+<h3>Organizers:</h3>
+    <ul>
+        <li> Dr. Larry Holder <br>
+        School of Electrical Engineering and Computer Science <br>
+        Washington State University <br>
+        Box 642752, Pullman, WA 99164 USA <br>
+        Phone: 509-335-6138 <br>
+        Email: holder@wsu.edu <br>
+        Web: www.eecs.wsu.edu/~holder <br>
+        <br>
+        
+        <li> Dr. Maleq Khan <br>
+        Network Dynamics and Simulation Science Laboratory <br>
+        Virginia Bioinformatics Institute <br>
+        Virginia Tech, Blacksburg, VA 24061 <br>
+        Phone: (540) 231-5359 (work), (540)449-3005 (Cell) <br>
+        Email: maleq@vbi.vt.edu <br>
+        Web: http://staff.vbi.vt.edu/maleq <br>
+        <br>
+        
+        <li> Dr. Christine Klymko <br> 
+        Lawrence Livermore National Laboratory <br>
+        Center for Applied Scientific Computing <br>
+        7000 East Avenue, Livermore, CA 94550 <br>
+        Phone: (925) 422-7742 <br>
+        Email: klymko1@llnl.gov <br>
+        Web: http://www.christineklymko.com  <br>
+        <br>
+    </ul>
+
+    <br>
+    <h3>Description of the workshop including objectives, content, topics of interest: </h3>
+
+    Networks are emerging as a common language to model a wide variety of systems in life sciences, engineering, and social sciences. Real-world applications give rise to networks that are unstructured and often comprised of multiple-networks. Furthermore, they support multiple dynamical processes that shape the network over time. In some cases, the data relevant for mining patterns and making decisions comes from multiple heterogeneous sources and streams in over time. Graphs are a popular representation for such data because of their ability to represent different entity and relationship types, including the temporal relationships necessary to represent the dynamics of a data stream. However, fusing such heterogeneous data into a single graph or multiple related graphs and mining them are challenging tasks. Emerging massive data has made such tasks even more challenging. <br> <br>
+
+    The workshop will focus on processing large networks and bring together researchers and practitioners in the field to deal with the emerging challenges in processing and mining large-scale networks. Such networks can be directed as well as undirected, they can be labeled or unlabeled, weighted or unweighted, and static or dynamic. Networks of networks and multi-layer networks are also of interest. Specific scientific topics of interest for this meeting include mining for patterns of interest in networks, efficient algorithms (sequential/parallel, exact/approximation) for analyzing network properties, methods for processing large networks, use of linear algebra and numerical analysis for mining complex networks, database techniques for processing networks, fusion of heterogeneous data sources into graphs, and methods for processing dynamic and streaming graphs. <br> <br>
+    
+    
+    <h3> Description of the format: </h3>
+
+    Our preference is full-day. But we are also open for a half-day workshop. <br><br>
+
+    The full-day workshop (approximately 6 hours) will feature: one or two invited talks (50 minutes + 10 minutes Q&amp;A), contributed lectures (approximately 6-8 talks that are 15-20 minutes long), a short session and/or panel discussion on open problems and directions for future research.
+    <br>
+    <br>
+
+
+    <h3> A short description of the target audience: </h3>
+
+    The workshop is targeted for researchers interested in data mining, machine learning, massive data analytics, network science, social networks and high performance computing in its broadest sense. Both theoreticians as well as practitioners, including system builders and individuals applying network analytic methods in application domains will benefit from this workshop.
+
+    <br>
+    <br>
+    <h3>List of potential participants including potential program committee members, potential authors and invited speakers:</h3>
+<ul>
+    <li>Lada Adamic, University of Michigan
+    <li>Srinivas Aluru, Georgia Tech
+    <li>David A. Bader, Georgia Institute of Technology
+    <li>Albert Bifet, University of Waikato and Noah's Ark Lab
+    <li>Nadya Bliss, Arizona State University
+    <li>Erik Boman, Sandia National Laboratories
+    <li>Michele Benzi, Emory University
+    <li>Tanya Berger-Wolf, University of Illinois at Chicago
+    <li>Dan Bienstock, Columbia University
+    <li>Rajmonda Caceres, Massachusetts Institute of Technology
+    <li>Nitesh Chawla, University of Notre Dame
+    <li>Aaron Clauset, University of Colorado at Boulder
+    <li>Seshadri Comamdur, University of Southern California
+    <li>Rich Colbaugh, Sandia National Labs
+    <li>Bill Eberle, Tennessee Technological University
+    <li>Tina Eliassi-Rad, Rutgers University
+    <li>Lise Getoor, University of Maryland
+    <li>David Gleich, Purdue University
+    <li>Aric Hagberg, Los Alamos National Laboratory
+    <li>David Kempe, University of Southern California
+    <li>Jeremy Kepner, Massachusetts Institute of Technology Lincoln Laboratory
+    <li>Tamara Kolda, Sandia National Laboratory
+    <li>Ravi Kumar, Google Inc.
+    <li>Rajiv Maheswaran, University of Southern California
+    <li>Kamesh Munnugala, Duke University
+    <li>Kamesh Madduri, Penn State
+    <li>Madhav Marathe, Virginia Tech
+    <li>Cristopher Moore, Santa Fe Institute
+    <li>Aditya Prakash, Virginia Tech
+    <li>Srinivasan Parthasarathy, The Ohio State University
+    <li>Ali Pinar, Sandia National Lab.
+    <li>Cythia Phillips, Sandia National Laboratory
+    <li>R. Ravi, Carnegie Mellon University
+    <li>Geoffrey Sanders, Lawrence Livermore National Laboratory
+    <li>Cosma Shalizi, Carnegie Mellon University
+    <li>Mohit Singh Columbia University
+    <li>Jaideep Srivastava, University of Minnesota
+    <li>Hans De Sterck, University of Waterloo
+    <li>Aravind Srinivasan, University of Maryland
+    <li>Milind Tambe, University of Southern California
+    <li>Alex Vespignani, Northeastern University
+    <li>Anil Vullikanti, Virginia Tech
+    <li>Nicholas Weller, University of Southern California
+    <li>Stanley Wasserman, Indiana University
+    <li>Jon Whetzel, Sandia National Lab.
+    <li>Stanley Wasserman, Indiana University
+ </ul>
+
+   <br>
+
+    <h3>A summary of previous editions of the workshop:</h3>
+
+    The second workshop of the series was held in Vancouver in conjunction with SDM 2015. The workshop consisted of a keynote talk by Ravi Kumar (Google Inc.), four technical paper presentations, one demonstration, and a panel on future challenges in mining large networks. The workshop was co-chaired by the same organizers: Larry Holder, Maleq Khan, and Christine Klymko. The program committee consisted of 24 members. There were about 30 attendees in the workshop. The participants of the panel discussion were  Rajmonda Caceres, Nitesh Chawla, Tina Eliassi-Rad, David Gleich, Christine Klymko, Ravi Kumar, Aditya Prakash, and Jason Riedy. Below is the link to the home page of the last year's workshop:
+   <a href="http://staff.vbi.vt.edu/maleq/MNG2015/">
+    http://staff.vbi.vt.edu/maleq/MNG2015/</a>
+    <br>
+    <br>
+
+    The first of this series of workshop was run with SDM 2014 at Philadephia. It was a full-day workshop and organized by Madhav Marathe and Ali Pinar. The workshop consisted of a four technical paper presentations. There were also several invited talks. The program committee consisted of 14 members. There were about 20 attendees in the workshop. Below is the link to the home page of the last year's workshop:
+   <a href="http://staff.vbi.vt.edu/maleq/MNG2014/">
+    http://staff.vbi.vt.edu/maleq/MNG2014/</a>
+
+    <br>
+    <br>
+    <h3>Short biographies of the organizers:  </h3>
+
+ <b>Dr. Larry Holder</b> is a professor in the School of Electrical Engineering and Computer Science at Washington State University. He received his PhD degree in computer science from the University of Illinois at Urbana-Champaign in 1991. Dr. Holder's research interests include artificial intelligence, machine learning, data mining, graph theory, and algorithms with applications ranging from security to biology. Most recently he has focused on developing graph mining algorithms for supervised and unsupervised learning in graph streams. Dr. Holder has over 150 publications in these areas and has led several projects funded by NSF, DHS, DOD and NASA. Dr. Holder is director of the WSU Smart Environments Research Center and co-director of the WSU Artificial Intelligence Laboratory. He is an associate editor for the journals IEEE Transactions on Knowledge and Data Engineering, Computing, Intelligent Data Analysis, and Social Network Mining. Dr. Holder has served as the co-chair for the ICDM Data Mining Contest (2011), the ICDM Workshop on Mining Graphs and Complex Structures (2007), and the Machine Learning track at the Florida AI Research Society Conference (2004-2008). He was general co-chair of the FLAIRS Conference in 2005, and he co-chaired a workshop on Smart Environments at the 2015 IEEE Conference on Pervasive Computing (PerCom).
+ 
+ <br><br>
+
+ <b>Dr. Maleq Khan</b> is a Research Scientist at Network Dynamics and Simulation Science Laboratory (NDSSL), Virginia Bio-Informatics Institute at Virginia Polytechnic Institute and State University. His research interests are in network science, parallel algorithms, distributed algorithms, graph algorithms, data mining, and communication networks. He obtained his BS in Computer Science and Engineering in 1996 from the Bangladesh Univeristy of Engineering and Technology (BUET), Dhaka, Bnagladesh. After obtiaing his BS, Maleq worked as lecturer in universities for several years. Then he obtained his Ph.D. in Computer Science in 2007 from Purdue University, West Lafayette, Indiana. Maleq has published over 30 papers in peer-reviewed conferences and journals in his area of expertise. He has won a best paper award at DISC 2006. He co-chaired this workshop last year and has served in the program committees of many conferences and workshops.
+ <br><br>
+
+ <b>Dr. Christine Klymko</b> is a ...  Her research focuses on the theory and development of linear algebra and numerical analysis based algorithms for problems arising from the analysis of complex networks.  She received her PhD in Computational Mathematics from Emory University in December 2013 and is currently a postdoctoral researcher in the Center for Applied Scientific Computing at Lawrence Livermore National Laboratory. She co-organized for the AMS Special Session on Network Science at the 2015 Joint Mathematics Meetings.
+
+</body> 

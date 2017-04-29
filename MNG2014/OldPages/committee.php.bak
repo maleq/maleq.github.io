@@ -1,0 +1,50 @@
+<?php
+require("include/header.php");
+?>
+
+<div id="wrapper">
+<?php
+require("include/menu.php");
+?>
+
+<div id="contentwrapper">
+
+
+<div id="content">
+
+<center>
+<!--<img src="images/barrett-group-2009-06-web.jpg">-->
+</center>
+
+<h2>Organizing Committee:</h2>
+
+<ul>
+    <li>Madhav Marathe, Virginia Tech</li>
+    <li>Ali Pinar, Sandia National Laboratory</li>
+</ul>
+
+<h2>Program Committee:</h2>
+
+<ul>
+    <li>Winter Mason, Stevens University of Technology</li>
+    <li>Cheng Wang, University of California, Irvine</li>
+    <li>Kayo Fujimoto, University of Texas - Health Science Center at Houston</li>
+    <li>Lorien Jasny, University of California, Davis</li>
+    <li>Mina Youssef, Virginia Tech</li>
+    <li>Kristian Lum, Virginia Tech</li>
+    <li>Travis Bauer, Sandia National Laboratory</li>
+    <li>Nitin Agarwal, University of Arkansas at Little Rock</li>
+    <li>Stephen Verzi, Sandia National Laboratory</li>
+    <li>Jonathan Whetzel, Sandia National Laboratory</li>
+</ul>
+
+<br><br>
+<!--<a href="status.php" title="Project Status">Project Status</a>-->
+
+</div> <!-- content -->
+</div> <!-- contentwrapper -->
+</div> <!-- wrapper -->
+
+<?php
+include("/include/footer.php");
+?>

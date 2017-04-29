@@ -1,0 +1,74 @@
+
+<html lang="en">
+<head>
+</head>
+<body>
+
+
+<h3>Call for Papers</h3>
+
+<p> (For a pdf version of the call for papers, <a href="MNG2016-CFP.pdf" target="_blank">click here</a>).
+
+<p>Real-world applications give rise to networks that are unstructured and often comprised of several components. Furthermore, they can support multiple dynamical processes that shape the network over time. Network science refers to the broad discipline that seeks to understand the underlying principles that govern the synthesis, analysis and co-evolution of networks. In some cases, the data relevant for mining patterns and making decisions comes from multiple heterogeneous sources and streams in over time. Graphs are a popular representation for such data because of their ability to represent different entity and relationship types, including the temporal relationships necessary to represent the dynamics of a data stream. However, fusing such heterogeneous data into a single graph or multiple related graphs and mining them are challenging tasks. Emerging massive data has made such tasks even more challenging.
+
+<p>This workshop will bring together researchers and practitioners in the field to deal with the emerging challenges in processing and mining large-scale networks. Such networks can be directed as well as undirected, they can be labeled or unlabeled, weighted or unweighted, and static or dynamic. Networks of networks are also of interest. Specific scientific topics of interest for this meeting include mining for patterns of interest in networks, efficient algorithms (sequential/parallel, exact/approximation) for analyzing network properties, methods and systems for processing large networks (i.e., Map-Reduce, GraphX, Giraph, etc.), use of linear algebra and numerical analysis for mining complex networks, database techniques for processing networks, and fusion of heterogeneous data sources into graphs. Another particular topic of interest is to couple structural properties of networks to the dynamics over networks, e.g., contagions.
+
+<p> Papers are invited on topics including, but not limited to, the following:
+
+<ul>
+
+<li>	Network Analytics
+<ul>
+<li> Sequential, parallel distributed methods for computing structural properties of networks
+<li> Big data and networks
+<li> Parallel and distributed simulations of contagion processes over networks
+<li> Provable algorithms, rigorous heuristics for structural and dynamic analysis of networks
+<li> Empirical analysis of methods
+<li> Linear algebra and numerical analysis for mining networks
+<li> Fusion of heterogeneous data sources into a graph
+<li> Scalable heterogeneous graph stream mining
+</ul>
+
+<li> Network Contagion, Control and Optimization
+<ul>
+<li> diffusion of information, innovations, ideas, beliefs over networks
+<li> emergence of norms
+<li>interventions to prevent contagion
+<li>influence maximization
+<li>Inference of network structure, contagions and pathways
+</ul>
+
+<li> Game Theory in Social Networks and Social Contagion
+<ul>
+<li>influence maximization
+<li>influence blocking maximization game
+<li>other game-theoretic approaches
+</ul>
+
+<li>	Network Modeling
+<ul>
+<li>exponential random graph models
+<li>stochastic actor models
+<li>network evolution models, etc.
+</ul>
+
+<li>Practical Applications of Networks
+<ul>
+<li>Real-world applications of networks in health, marketing, online media
+<li>Case studies in social behavioral and economic sciences
+<li>Description of large-scale systems to address network science problems
+<li>Social network analysis
+<li>Biological network analysis
+<li>Computer network analysis for cybersecurity
+</ul>
+</ul>
+
+<p>The full-day workshop will feature: 2 invited talks, a session to showcase tools and systems individuals have developed in this area, contributed talks, and a short session on open problems and directions for future research. Papers that describe original and ongoing research as well as those that describe systems and tools are solicited.
+
+<p><b>Important Dates:</b>
+<ul>
+<li>Paper submissions due: January 15, 2016
+<li>Author notification: February 5, 2016
+<li>Camera-ready versions: February 12, 2016
+</ul>
+</body> 

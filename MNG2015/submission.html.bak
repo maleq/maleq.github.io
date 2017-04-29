@@ -1,0 +1,32 @@
+
+<html lang="en">
+<head>
+</head>
+<body>
+
+
+<h3>Paper Submission</h3>
+
+    Submit your paper at Easy Chair by clicking the link below. <font color="red">Submission will be accepted until 9:00 AM EST, February 3, 2015.</font>
+<p>
+<a href = "https://www.easychair.org/conferences/?conf=sdmnetworks2015" target="_blank"> Easy Chair submission site</a>
+
+<p>Papers submitted to this workshop must not have been accepted or be under
+review for another publication venue. The work may be either theoretical
+or applied, but should make a significant contribution to the field.
+All papers accepted should have a maximum length of 9 pages
+(single-spaced, 2 column, 10 point font, and at least 1" margin on each
+side). Authors should use US Letter (8.5" x 11") paper size. Papers must
+have an abstract with a maximum of 300 words and a keyword list with no
+more than 6 keywords. All submissions should clearly present the author information including
+the names of the authors, the affiliations and the emails.
+
+<p>We would like to encourage you to prepare your paper in LaTeX2e. Papers
+should be formatted using the SIAM SODA macro, which is available through
+the SIAM website You can access it at <a href="http://www.siam.org/proceedings/macros.php" target="_blank">http://www.siam.org/proceedings/macros.php</a>. The filename is soda2e.all.
+Make sure you use the macros for SODA and Data Mining Proceedings; papers
+prepared using other proceedings macros will not be accepted.
+
+<p>For Microsoft Word users, please convert your document to the PDF format.
+
+</body> 

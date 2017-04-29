@@ -1,0 +1,40 @@
+
+<html>
+
+<head>
+<title>Mining Networks and </title>
+
+<link rel="stylesheet" type="text/css" href="include/style.css">
+<link rel="stylesheet" type="text/css" href="include/print.css" media="print">
+
+</head>
+
+<body>
+
+<div id="banner">
+<div id="bannersub">
+<h4 style="margin-bottom:0;">The AAAI Fall Symposium 2013 on</h4>
+<h1 style="margin-top:0;margin-bottom:0;">Social Networks and Social Contagion</h1>
+<h4 style="margin-top:0;marbin-bottom:0;">Web Analytics and Computational Social Science</h4>
+</div>
+</div>
+<!--
+<div id="banner">
+
+<div id="bannervbi">
+<a href="http://www.vbi.vt.edu">
+<img src="images/logo_vbi_top.png" height="50%" border ="0" ></a>
+</div>
+
+<div id="bannercinet">
+<img src="images/cinet-header1.jpg" height="100%" border ="0" >
+<img src="images/nsf1.gif" height="100%" border="0">
+</div>
+-->
+<!--
+<div id="bannernsf">
+<img src="images/nsf1.gif" height="100%" border="0">
+</div>
+-->
+
+

@@ -1,0 +1,24 @@
+
+<html lang="en">
+<head>
+</head>
+<body>
+
+
+<h3>Accepted Papers</h3>
+<ul>
+   <li> Trust from the past: Bayesian Personalized Ranking based Link Prediction in Knowledge Graphs <br>
+   Baichuan Zhang, Sutanay Choudhury, Mohammad Al Hasan, Xia Ning, Khushbu Agarwal, Sumit Purohit and Paola Pesantez Cabrera  <br><br>
+
+ <li> Collaborative SVM Classification in Skewed Peer-to-Peer Networks <br>
+ Umer Khan, Alexandros Nanopoulos and Lars Schmidt-Thieme <br><br>
+
+ <li> Towards Scalable Graph Analytics on Time Dependent Graphs <br>
+Suraj Poudel, Roger Pearce and Maya Gokhale <br><br>
+
+ <li> GSK: Graph Sparsification as a Knapsack problem formulation <br>
+	Hongyuan Zhan and Kamesh Madduri <br><br>
+
+ <li> On the Geometry and Extremal Properties of the Edge-Degeneracy Model <br>
+Nicolas Kim, Dane Wilburne, Sonja Petrovic and Alessandro Rinaldo <br><br>
+</body> 
