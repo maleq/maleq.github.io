@@ -12,7 +12,7 @@
 
 <body>
 
-<p align="center"><b><font size="5">My Research Activities</font></b></p>
+<p align="center"><b><font size="5">My Research Work</font></b></p>
 <p align="justify">&nbsp;&nbsp;&nbsp; <font size="3">
  My research areas are big data, graph analytics, high performance computing, parallel and distributed algorithms, randomized algorithms, and data mining.
 
@@ -22,10 +22,12 @@
 <p><a href="Resume/resume_body.html#talks">
 <span style="text-decoration: none">Click here for a list talks I gave.</span></a></p>
 
+
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
 <font size="4">Big Data and Graph Analytics with High-performance Parallel Computing</font></b></p>
 <p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
-My work addresses the need for high performance computing in big data analytics with efficient parallel and distributed algorithms. Due to the advancement in technology, we are swamped with data from a wide range of sources, e.g., the Internet, genomics, proteomics, social network analytics, etc. My work focuses mainly on graph-based analysis of big data. Graph abstraction and graph-based analysis of data offers valuable insights and can lead to the discoveries of hidden patterns in massive datasets. Traditional data analytic methods and algorithms do not scale well for big data. Furthermore, such huge data may not fit in the memory of a single processing unit, and thus processing such data require distributed-memory systems where the data is distributed among multiple compute nodes. With this background, the big picture of my work is i) generating large-scale graphs representing or modeling a given large-scale dataset, ii) analyze the graphs to gain insights and discover patterns in the datasets, and iii) develop efficient parallel and distributed algorithms for big data analytic problems using HPC systems to be able to deal with large volume of data. I have published a large number of peer-reviewed articles on these topics in top-tier journals and conferences. Bellow are some of the specific problems that I have studied. </p>
+
+My work addresses the need for high performance computing in big data analytics with efficient parallel and distributed algorithms and focuses mainly on graph-based analysis of big data. We are swamped with data from a wide range of sources, e.g., the Internet, genomics, proteomics, social network analytics, etc. Graph abstraction and graph-based analysis of data offers valuable insights and can lead to the discoveries of hidden patterns in massive datasets. Traditional data analytic methods and algorithms do not scale well for big data. Furthermore, such huge data may not fit in the memory of a single processing unit, and thus processing such data require distributed-memory systems where the data is distributed among multiple compute nodes. With this background, the big picture of my work is i) generating large-scale graphs representing or modeling a given large-scale dataset, ii) analyze the graphs to gain insights and discover patterns in the datasets, and iii) develop efficient parallel and distributed algorithms for big data analytic problems using HPC systems to be able to deal with large volume of data. I have published a large number of peer-reviewed articles on these topics in top-tier journals and conferences. The papers can be found <a href="Resume/resume_body.html#publications">here</a>. Bellow are some of the specific problems that I have studied. </p>
 
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
 <font size="4">Generating Random Graphs</font></b></p>
@@ -44,28 +46,31 @@ Subgraph isomorphism is a canonical problem in several applications, such as soc
 <font size="4">Counting Triangles in a Graph</font></b></p>
 <p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
 
-A triangle (three vertices with three edges among them) is a special type of subgraph with special significance. Faster algorithms can be developed for triangles in contrast to the algorithms for general subgraphs. Finding the number of triangles in a graph is an important problem in the analysis of complex networks and data mining. Efficient solution to this problem also lead to efficient solutions for several other graph analysis problems, e.g., computation of clustering coefficient, transitivity, and triangular connectivity. Although there are a large number of sequential algorithms for counting triangles, there are only a few previous parallel algorithms, which are either shared-memory based or map-reduce based. The map-reduce based algorithms for this problem generate huge volumes of intermediate data. Shuffling and regrouping these intermediate data lead to significant time and memory overhead. In one paper, we present an efficient MPI-based distributed-memory parallel algorithm, called PATRIC, for counting triangles in massive networks. PATRIC scales well to networks with billions of edges and can compute the exact number of triangles in a network with 10 billion edges in 16 minutes. This algorithm employs an overlapping partitioning of the graph. In another paper, we present a distributed-memory parallel algorithm for counting triangles with non-overlapping partitions of the graph leading to the ability of working with even larger graphs. We have also developed a parallel algorithm with dynamic load balancing that helps improve the running time further. 
+A triangle (three vertices with three edges among them) is a special type of subgraph with special significance. Faster algorithms can be developed for triangles in contrast to the algorithms for general subgraphs. Finding the number of triangles in a graph is an important problem in the analysis of complex networks and data mining. Efficient solution to this problem also lead to efficient solutions for several other graph analysis problems, e.g., computation of clustering coefficient, transitivity, triangular connectivity, etc. Although there are a large number of sequential algorithms for counting triangles, there are only a few previous parallel algorithms, which are either shared-memory based or map-reduce based. The map-reduce based algorithms for this problem generate huge volumes of intermediate data. Shuffling and regrouping these intermediate data lead to significant time and memory overhead. In one paper, we present an efficient MPI-based distributed-memory parallel algorithm, called PATRIC, for counting triangles in massive networks. PATRIC scales well to networks with billions of edges and can compute the exact number of triangles in a network with 10 billion edges in 16 minutes. This algorithm employs an overlapping partitioning of the graph. In another paper, we present a distributed-memory parallel algorithm for counting triangles with non-overlapping partitions of the graph leading to the ability of working with even larger graphs. We have also developed a parallel algorithm with dynamic load balancing that helps improve the running time further.</p> 
+
+
+<p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
+<font size="4">Generating Social Contact Graphs</font></b></p>
+<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
+ 
+We have generated urban and national scale social contact graphs using real world data  (e.g., census data, travel data, activity survey data, etc.) coupled with behavioral and social theories. We developed synthetic population for the United States and some other countries modeling every individual in the population including household structure, demographics and a 24-hour activity sequence. Then a social contact network is derived from the synthetic population based on physical co-location of interacting persons. These social contact networks are then used for simulating various social diffusion process and studying contagion dynamics.</p>
+
+
+<p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
+<font size="4">Studying Graph Properties and Disease Dynamics</font></b></p>
+<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
+
+We study structural properties of the generated social contact networks and contagious disease propagation in these networks. In an ongoing work, we are studying how various graph properties, such as degree distribution, clustering coefficients, assortativity, subgraph structures, diameter, and shortest path distance affect disease dynamics on a social contact networks. The social network structure plays major role on the epidemic outcome. We show by explicit construction that local properties such as the degree distribution are not sufficient to characterize the global dynamics of reaction-diffusion processes. We introduce a simple edge-flipping step to generate a Markov chain of random graphs with fixed degree and assortativity distributions. We instantiate several such chains, starting from a highly structured, realistic representation of a social contact network and study the global dynamics of a canonical reaction-diffusion process: epidemic spread. We find that the epidemic curves in these graphs are significantly different, and the difference increases as the Markov chain gets further from its starting point. Such insights can prove useful in future epidemiological studies and formulating public health policies.</p>
 
 
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
 <font size="4">Distributed Algorithms</font></b></p>
-<p align="justify" style="margin-top: 12px; margin-bottom: 12px">I worked on developing distributed algorithms for various problems, specifically the minimum spanning tree (MST) problem and the <i>k</i>-connected subgraph problem. For general networks (<i>point-to-point communication model</i>), we developed a distributed approximation algorithm for MST, which is
-significantly faster than the existing MST algorithms. We also developed a
-distributed <i>k</i>-connected subgraph algorithm, which is, to the best of our
-knowledge, is the first non-trivial distributed algorithm for the <i>k</i>-connected
-subgraph problem. I also worked on distributed algorithms for wireless sensor
-networks (<i>wireless local broadcast model</i>). To build a data aggregation
-tree, we developed energy-efficient distributed approximation algorithm for
-constructing MST in a sensor network. For data aggregation such as sum, min,
-max, count, and average, it can be shown that MST is the optimal data
-aggregation tree. We analyzed our algorithms for both arbitrary distribution of
-the sensor nodes and random uniform distribution of the nodes in a unit square
-(a popular model for wireless ad hoc networks). We also worked on network
-monitoring for general communication networks and developed an efficient
-distributed network monitoring algorithm using edge routers only. This problem
-becomes easier if we are allowed to use core routers. However, we avoided using
-busy core router for monitoring purposes to allow the network to operate
-effectively.</p>
+<p align="justify" style="margin-top: 12px; margin-bottom: 12px">
+
+We have developed distributed algorithms for some fundamental graph connectivity problems such as the minimum spanning tree, <i>k</i>-connectivity, topology control, leader election, probabilistic tree embedding, and Steiner forest problems. The results form work has been published in more than eight papers in top-tier journal and conferences. In these distributed algorithms, the nature of computation is inherently parallel, and many principles and techniques developed for these algorithms are useful and insightful in the development of HPC-based parallel algorithms for graph-based big data analytics. 
+
+I also worked on distributed algorithms for wireless sensor networks. To build a data aggregation tree, we developed energy-efficient distributed approximation algorithm for constructing MST in a sensor network. For data aggregation such as sum, min, max, count, and average, it can be shown that MST is the optimal data
+aggregation tree. We also worked on network monitoring for general communication networks and developed an efficient distributed network monitoring algorithm using edge routers only. This problem becomes easier if we are allowed to use core routers. However, we avoided using busy core router for monitoring purposes to allow the network to operate effectively.</p>
 
 <!--
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
