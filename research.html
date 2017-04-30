@@ -14,7 +14,7 @@
 
 <p align="center"><b><font size="5">My Research Activities</font></b></p>
 <p align="justify">&nbsp;&nbsp;&nbsp; <font size="3">
- My research areas are big data analytics, high performance computing, network science, data mining, parallel and distributed algorithms, randomized algorithms, and wireless ad-hoc networks.
+ My research areas are big data, graph analytics, high performance computing, parallel and distributed algorithms, randomized algorithms, and data mining.
 
 <p><a href="Resume/resume_body.html#publications">
 <span style="text-decoration: none">Click here for a list of my publications.</span></a></p>
@@ -23,27 +23,32 @@
 <span style="text-decoration: none">Click here for a list talks I gave.</span></a></p>
 
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
-<font size="4">Big Data Analytics</font></b></p>
-<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> A description will be added soon.</p>
+<font size="4">Big Data and Graph Analytics with High-performance Parallel Computing</font></b></p>
+<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
+My work addresses the need for high performance computing in big data analytics with efficient parallel and distributed algorithms. Due to the advancement in technology, we are swamped with data from a wide range of sources, e.g., the Internet, genomics, proteomics, social network analytics, etc. My work focuses mainly on graph-based analysis of big data. Graph abstraction and graph-based analysis of data offers valuable insights and can lead to the discoveries of hidden patterns in massive datasets. Traditional data analytic methods and algorithms do not scale well for big data. Furthermore, such huge data may not fit in the memory of a single processing unit, and thus processing such data require distributed-memory systems where the data is distributed among multiple compute nodes. With this background, the big picture of my work is i) generating large-scale graphs representing or modeling a given large-scale dataset, ii) analyze the graphs to gain insights and discover patterns in the datasets, and iii) develop efficient parallel and distributed algorithms for big data analytic problems using HPC systems to be able to deal with large volume of data. I have published a large number of peer-reviewed articles on these topics in top-tier journals and conferences. Bellow are some of the specific problems that I have studied. </p>
 
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
-<font size="4">High Performance Computing</font></b></p>
-<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> A description will be added soon.</p>
+<font size="4">Generating Random Graphs</font></b></p>
+<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
+In many cases, complex networks are studied by modeling them by random graphs. Moreover, random graphs are used for modeling dynamic networks to study their evolution over time. Diversity of the complex systems and processes led to the development of various random graph models such as Erdos-Renyi, small-world, preferential attachment, Chung-Lu, exponential random graph (ERGM), recursive matrix (R-MAT), stochastic Kronecker graph, and Block Two-Level Erdos--Renyi (BTER) models. Demand for big random networks necessitates HPC-based efficient algorithms. However, even efficient sequential algorithms for generating such graphs were nonexistent until recently. We are the first to develop efficient MPI-based distributed-memory parallel algorithms for the preferential attachment model and Chung-Lu model. Preferential attachment model generates random graphs with power-law degree distribution, and Chung-Lu model generates graphs following any given degree sequence. Our algorithms scale very well to large number of processors and can generate random graphs with several hundred billion edges in just a few minutes. We evaluate these algorithms rigorously by both theoretical and experimental analysis. </p>
+
 
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
-<font size="4">Network Science</font></b></p>
-<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> A description will be added soon.</p>
+<font size="4">Subgraph Analysis and Mining</font></b></p>
+<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
+
+Subgraph isomorphism is a canonical problem in several applications, such as social network analysis, data mining, fraud detection and bioinformatics, where we are interested in finding subsets of nodes with specific labels or attributes and mutual relationships in a given graph that match a specific small template graph. In protein-protein interaction networks, frequent subgraphs (referred to as motifs) have been used to characterize the networks and identify functional groups. We have developed two distributed-memory parallel algorithms, called SPARSE and SAHAD, for this problem. SPARSE is an MPI-based algorithm and can work with a template which is composed of two smaller low-diameter sub-templates connected by a single edge. SAHAD is a Hadoop-based algorithm for templates which are in the form of a tree.  These algorithms can count occurrences of templates with up to 10 nodes in graphs with several hundred million edges within a few hours. </p>
+
 
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
-<font size="4">Data Mining</font></b></p>
-<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> A description will be added soon.</p>
+<font size="4">Counting Triangles in a Graph</font></b></p>
+<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> 
+
+A triangle (three vertices with three edges among them) is a special type of subgraph with special significance. Faster algorithms can be developed for triangles in contrast to the algorithms for general subgraphs. Finding the number of triangles in a graph is an important problem in the analysis of complex networks and data mining. Efficient solution to this problem also lead to efficient solutions for several other graph analysis problems, e.g., computation of clustering coefficient, transitivity, and triangular connectivity. Although there are a large number of sequential algorithms for counting triangles, there are only a few previous parallel algorithms, which are either shared-memory based or map-reduce based. The map-reduce based algorithms for this problem generate huge volumes of intermediate data. Shuffling and regrouping these intermediate data lead to significant time and memory overhead. In one paper, we present an efficient MPI-based distributed-memory parallel algorithm, called PATRIC, for counting triangles in massive networks. PATRIC scales well to networks with billions of edges and can compute the exact number of triangles in a network with 10 billion edges in 16 minutes. This algorithm employs an overlapping partitioning of the graph. In another paper, we present a distributed-memory parallel algorithm for counting triangles with non-overlapping partitions of the graph leading to the ability of working with even larger graphs. We have also developed a parallel algorithm with dynamic load balancing that helps improve the running time further. 
+
 
 <p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
-<font size="4">Parallel Algorithms</font></b></p>
-<p align="justify" style="margin-top: 12px; margin-bottom: 12px"> A description will be added soon.</p>
-
-<p align="justify" style="margin-top: 30px; margin-bottom: 12px"><b>
-<font size="4">Distributed Algorithms and Wireless Ad Hoc Sensor Networks</font></b></p>
+<font size="4">Distributed Algorithms</font></b></p>
 <p align="justify" style="margin-top: 12px; margin-bottom: 12px">I worked on developing distributed algorithms for various problems, specifically the minimum spanning tree (MST) problem and the <i>k</i>-connected subgraph problem. For general networks (<i>point-to-point communication model</i>), we developed a distributed approximation algorithm for MST, which is
 significantly faster than the existing MST algorithms. We also developed a
 distributed <i>k</i>-connected subgraph algorithm, which is, to the best of our
